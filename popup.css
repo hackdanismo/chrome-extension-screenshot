@@ -1,0 +1,47 @@
+/* Style the entire extension popup. */
+body {
+    margin: 0;
+    padding: 0;
+    width: 280px;
+    font-family: Arial, sans-serif;
+    background-color: #f5f7fb;
+}
+
+.container {
+    /* Add spacing around the popup content. */
+    padding: 2rem;
+}
+
+h1 {
+    margin: 0 0 1rem;
+    font-size: 1.25rem;
+    color: #1f2937;
+}
+
+p {
+    margin: 0 0 2rem;
+    font-size: 0.875rem;
+    line-height: 1.5;
+    color: #6b7280;
+}
+
+.button {
+    width: 100%;
+    padding: 1rem 0.875rem;
+    border: none;
+    border-radius: 0.5rem;
+    background-color: #2563eb;
+    color: white;
+    font-size: 0.875rem;
+    cursor: pointer;
+    transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+.button:hover {
+    background-color: #1d4ed8;
+}
+
+.button:active {
+    /* Sligtly move the button down when it is clicked. */
+    transform: translateY(1px);
+}
