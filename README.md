@@ -6,7 +6,7 @@ A `Chrome extension` is a small software program that customizes and adds new fe
 
 `Chrome` no longer accepts new `Manifest V2` extensions. All extensions should now be `Manifest V3`.
 
-### Adding the Extension to the Chrome Web Store
+### Adding the Extension to the Chrome Web Store (**TO DO**)
 To add the extension to the `Chrome Web Store` for anyone to use the extension, follow these steps:
 
 + Create a `Chrome Web Store Developer Account`.
