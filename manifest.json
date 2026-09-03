@@ -3,6 +3,9 @@
     "name": "Screenshot Extension",
     "version": "1.0",
     "description": "Capture high-quality screenshots of webpages quickly and easily. Save visible page content for reference, sharing, documentation, design feedback, bug reporting, and more.",
+    "permissions": [
+        "activeTab"
+    ],
     "action": {
         "default_popup": "popup.html"
     }
