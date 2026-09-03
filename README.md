@@ -1,6 +1,23 @@
 # Chrome Extension: Screenshot
 Capture high-quality screenshots of webpages quickly and easily. Save visible page content for reference, sharing, documentation, design feedback, bug reporting, and more.
 
+## What is a Chrome Extension?
+A `Chrome extension` is a small software program that customizes and adds new features to the `Google Chrome` web browser. They use standard web languages like `HTML`, `CSS`, and `JavaScript` and run inside the browser.
+
+`Chrome` no longer accepts new `Manifest V2` extensions. All extensions should now be `Manifest V3`.
+
+### Adding the Extension to the Chrome Web Store
+To add the extension to the `Chrome Web Store` for anyone to use the extension, follow these steps:
+
++ Create a `Chrome Web Store Developer Account`.
++ Create a `.zip` containing the full code of the extension. The `manifest.json` file should be at the top level and not buried inside a nested folder.
++ Upload the `.zip` in the `Developer Dashboard`. Choose `Add new item`, select the `.zip` and upload it. Chrome will perform installation/validity checks on the package.
++ Complete the store listing with the extension name, detailed description, screenshots, category, language, and promotional store/graphics. The Privacy section should also be completed when the purpose of the extension is defined and how user data is handled.
++ Click the `Submit for Review` button. Chrome reviews the extension before it becomes publicly available.
++ Publish.
+
+Once published, users can then get the extension from the `Chrome Web Store` page with an `Add to Chrome` button. Chrome handles the installation and future updates.
+
 ## Local Development
 To run the `Chrome extension` locally, open `Chrome` and enter the URL of: `chrome://extensions`. From here, enable `Developer mode` and click `Load unpacked`. Select the folder where the extension code is saved.
 
