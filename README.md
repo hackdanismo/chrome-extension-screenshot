@@ -1,4 +1,5 @@
 # Chrome Extension: Screenshot
+Capture high-quality screenshots of webpages quickly and easily. Save visible page content for reference, sharing, documentation, design feedback, bug reporting, and more.
 
 ## Local Development
 To run the `Chrome extension` locally, open `Chrome` and enter the URL of: `chrome://extensions`. From here, enable `Developer mode` and click `Load unpacked`. Select the folder where the extension code is saved.
@@ -29,3 +30,6 @@ The extension will show a popup and button allowing a screenshot to be generated
 The screenshot is then available as a `.png` file in downloads. This can then be moved elsewhere and the screenshot image can then be used.
 
 <img width="1619" height="237" alt="Screenshot 2026-09-03 at 10 12 32" src="https://github.com/user-attachments/assets/78a6fcb4-ba3b-4402-90de-15d87508d985" />
+
+## Licence
+The project is created by `Dan Jackson` and released under the [MIT licence](https://github.com/hackdanismo/chrome-extension-screenshot/blob/main/LICENSE).
